@@ -4,3 +4,4 @@ Weather Jan 20: Sunny 34*
 Weather Jan 21: Mostly Sunny 48*
 Weather Jan 22: Cloudy 36*
 Weather Jan 23: Rain 37*
+Weather Jan 24: Snow 35*
