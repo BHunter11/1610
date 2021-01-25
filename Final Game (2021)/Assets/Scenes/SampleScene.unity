@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518782460}
   - component: {fileID: 518782459}
+  - component: {fileID: 518782461}
   m_Layer: 0
   m_Name: Spawn Manager
   m_TagString: Untagged
@@ -145,7 +146,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518782458}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a20a28ab19aa43c9bc6403ef759895e, type: 3}
   m_Name: 
@@ -164,6 +165,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518782461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518782458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a20a28ab19aa43c9bc6403ef759895e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562715819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.56, y: -3.28, z: 0}
+  m_LocalPosition: {x: -7.56, y: -3.28, z: 498.7}
   m_LocalScale: {x: 1.6605, y: 1.6605, z: 1.6605}
   m_Children: []
   m_Father: {fileID: 0}
