@@ -1449,6 +1449,7 @@ GameObject:
   - component: {fileID: 1232396154}
   - component: {fileID: 1232396153}
   - component: {fileID: 1232396155}
+  - component: {fileID: 1232396156}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1532,6 +1533,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a86cace66d749dba18faae71d28eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1232396156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232396152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4195eff60f64e71aea3dd7188131df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1295223223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,6 +1556,7 @@ GameObject:
   - component: {fileID: 1295223225}
   - component: {fileID: 1295223224}
   - component: {fileID: 1295223226}
+  - component: {fileID: 1295223227}
   m_Layer: 0
   m_Name: Easy Enemy
   m_TagString: Untagged
@@ -1624,6 +1638,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6a86cace66d749dba18faae71d28eed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1295223227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295223223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4195eff60f64e71aea3dd7188131df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1556741979
@@ -1961,6 +1987,7 @@ GameObject:
   - component: {fileID: 1888800616}
   - component: {fileID: 1888800615}
   - component: {fileID: 1888800617}
+  - component: {fileID: 1888800618}
   m_Layer: 0
   m_Name: Hard Enemy
   m_TagString: Untagged
@@ -2042,6 +2069,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6a86cace66d749dba18faae71d28eed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1888800618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888800614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4195eff60f64e71aea3dd7188131df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1967754599
