@@ -21,9 +21,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //moves the ball
         direction.x = Input.GetAxis("Horizontal") * speed;
         ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
-
+        //allows the ball to jump
         if (Input.GetButtonDown("Jump"))
         {
             yDirection.y = jumpForce;
