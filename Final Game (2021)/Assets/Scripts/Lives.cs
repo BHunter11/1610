@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Lives : MonoBehaviour
 {
+    // create a way for the player to have 3 lives
     // Start is called before the first frame update
     void Start()
     {

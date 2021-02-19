@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Goal is to get the enemy to follow the player
 public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update

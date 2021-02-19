@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
+    // give the player a chance to power up and take on the harder enemies generated
     // Start is called before the first frame update
     void Start()
     {

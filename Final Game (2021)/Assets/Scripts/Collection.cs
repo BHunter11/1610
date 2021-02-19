@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collection : MonoBehaviour
 {
+    // player must collect certain coins in order, to win 
     // Start is called before the first frame update
     void Start()
     {

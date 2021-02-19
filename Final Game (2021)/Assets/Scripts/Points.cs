@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Points : MonoBehaviour
 {
+    // give the player points for knocking enemies off the map
     // Start is called before the first frame update
     void Start()
     {
